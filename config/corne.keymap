@@ -18,9 +18,8 @@
 
         layer0 {
             display-name = "ABC";
-
             bindings = <
-&kp ESCAPE        &kp Q       &kp W  &kp E       &kp R  &kp T                   &kp Y          &kp U  &kp I          &kp O    &kp P          &kp SQT
+&kp ESCAPE        &kp Q       &kp W  &kp E       &kp R  &kp T                   &kp Y          &kp U  &kp I          &kp O    &kp P          &kp SINGLE_QUOTE
 &mt LEFT_ALT TAB  &mt LGUI A  &kp S  &kp D       &kp F  &kp G                   &kp H          &kp J  &kp K          &kp L    &mt RGUI SEMI  &mt RIGHT_ALT GRAVE
 &kp BACKSLASH     &kp Z       &kp X  &kp C       &kp V  &kp B                   &kp N          &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp CARET
                                      &kp DELETE  &to 1  &mt LEFT_SHIFT SPACE    &mt RCTRL RET  &to 2  &kp BACKSPACE
@@ -29,7 +28,6 @@
 
         layer1 {
             display-name = "123";
-
             bindings = <
 &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6            &kp N7            &kp N8    &kp N9         &kp N0     &kp MINUS              &kp EQUAL
 &mt LEFT_ALT TAB  &mt LGUI PRINTSCREEN  &kp HOME      &kp PAGE_UP   &kp PAGE_DOWN  &kp END                 &kp LEFT          &kp DOWN  &kp UP         &kp RIGHT  &mt RGUI LEFT_BRACKET  &mt RIGHT_ALT RIGHT_BRACKET
@@ -38,9 +36,8 @@
             >;
         };
 
-        raise_layer {
+        layer2 {
             display-name = "ETC";
-
             bindings = <
 &kp F1            &kp F2    &kp F3          &kp F4        &kp F5          &kp F6             &kp F7          &kp F8          &kp F9         &kp F10          &kp F11   &kp F12
 &mt LEFT_ALT TAB  &kp LGUI  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT  &kp RGUI  &kp RIGHT_ALT
